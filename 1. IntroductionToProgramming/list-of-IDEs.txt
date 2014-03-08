@@ -1,0 +1,27 @@
+Eclipse
+It contains a base workspace and an extensible plug-in system for 
+customizing the environment. Written mostly in Java, Eclipse can be 
+used to develop applications.
+
+Code::Blocks
+It is a free and open source, cross-platform IDE which supports multiple 
+compilers including GCC and Visual C++. It is developed in C++ using wxWidgets 
+as the GUI toolkit.
+
+MonoDevelop
+It is an open source integrated development environment for 
+Linux, OS X, and Windows. Its primary focus is development of projects 
+that use Mono and .NET frameworks. MonoDevelop integrates features similar 
+to those of NetBeans and Microsoft Visual Studio.
+
+NetBeans
+It is an integrated development environment (IDE) for developing primarily 
+with Java, but also with other languages, in particular PHP, C/C++, and HTML5.
+It is also an application platform framework for Java desktop applications and 
+others.
+
+Aptana Studio
+It is an open source integrated development environment (IDE) for building 
+Ajax web applications. Based on Eclipse, it supports JavaScript, HTML, DOM 
+and CSS with code-completion, outlining, JavaScript debugging, error and 
+warning notifications and integrated documentation.

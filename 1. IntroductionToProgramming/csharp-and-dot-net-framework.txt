@@ -1,0 +1,7 @@
+The .NET Framework is a technology that supports building and running the next 
+generation of applications and XML Web services. It consists of the common 
+language runtime and the .NET Framework class library. The common language 
+runtime is the foundation of the .NET Framework.
+C# is a type-safe, object-oriented language that is simple yet powerful, 
+allowing programmers to build a breadth of applications. Combined with 
+the .NET Framework, C# enables the creation of Windows applications.

@@ -1,0 +1,31 @@
+JAVA
+Java and C# are similar programming languages that are statically, strongly, 
+and manifestly typed, both are class-based object-oriented, both are designed 
+with semi-interpretation or runtime compilation in mind, both use 
+garbage-collection, and both are "curly brace languages" like C and C++.
+
+Visual Basic .NET
+C# and VB.NET are syntactically very different, that is where the differences 
+mostly end. Microsoft developed both of these languages to be part of the same 
+.NET Framework development platform.They compile to the same intermediate 
+language (IL), which runs against the same .NET Framework runtime libraries.
+
+Python
+Python is implemented as an interpreted language while C# is compiled. 
+Both this implementations have their benefits and drawbacks. Performance-wise, 
+C# is faster due to the optimizations provided by the Common Language 
+Infrastructure (CLI) framework.
+
+C and C++
+C - an older programming language that is described as Hands-on. 
+As the programmer you must tell the program to do everything. Also this 
+language will let you do almost anything. It does not support object orriented 
+code. Thus no classes. 
+
+C++ - an extention language per se of C. In C code ++ means increment 1. 
+Thus C++ is better than C. It allows for highly controlled object orriented 
+code. Once again a very hands on language that goes into MUCH detail. 
+
+C# - Full object orriented code resembling the style of C/C++ code. This is 
+really closer to JAVA. C# is the latest version of the C style languages 
+and is very good for developing web applications.
