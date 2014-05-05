@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* Write a program that extracts and prints all URLs from given text. */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
