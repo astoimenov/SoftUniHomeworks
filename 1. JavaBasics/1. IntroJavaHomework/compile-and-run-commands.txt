@@ -1,0 +1,4 @@
+1. cd D:\SkyDrive\Cloud\SoftUni\SoftUniHomeworks\1. JavaBasics\1. IntroJavaHomework\src
+2. set path=D:\SkyDrive\Cloud\SoftUni\SoftUniHomeworks\1. JavaBasics\1. IntroJavaHomework\src;C:\Program Files\Java\jdk1.8.0_20
+3. javac P06SumTwoNumbers.java
+4. java P06SumTwoNumbers
