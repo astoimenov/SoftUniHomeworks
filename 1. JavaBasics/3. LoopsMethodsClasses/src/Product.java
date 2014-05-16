@@ -27,6 +27,7 @@ public class Product implements Comparable<Product> {
 	this.price = price;
     }
 
+    @Override
     public int compareTo(Product product) {
 	double price = product.getPrice();
 	if (this.price > price) {
@@ -36,7 +37,5 @@ public class Product implements Comparable<Product> {
 	} else {
 	    return -1;
 	}
-    }
-
-    
+    }    
 }
