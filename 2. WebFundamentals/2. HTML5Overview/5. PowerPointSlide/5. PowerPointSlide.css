@@ -1,0 +1,45 @@
+html {
+    background-image: url('background.jpg');
+    background-size: 100%;
+    font-family: Calibri;
+    font-size: 20pt;
+    padding-bottom: 60px;
+}
+h1 {
+    color: rgb(243, 190, 96);
+}
+#logo {
+    width: 200px;
+    float: right;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.tag {
+    color: rgb(243, 190, 96);
+    font-weight: bold;
+}
+li {
+    color: rgb(243, 190, 96);
+    list-style-type: square;
+}
+.li-title {
+    color: #fff;
+}
+.example {
+    color: rgb(251, 238, 201);
+    width: 80%;
+    background-color: rgba(217, 213, 199, 0.6);
+    border: 1pt solid rgb(199, 191, 172);
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+footer {
+	position: absolute;
+	left: -10px;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	color: #fff;
+	text-align: right;
+}
