@@ -26,7 +26,6 @@ public class P11MostFrequentWord {
 		maxCount = count + 1;
 	    }
 	    wordsCount.put(word, count + 1);
-	    
 	}
 
 	for (Map.Entry<String, Integer> max : wordsCount.entrySet()) {
