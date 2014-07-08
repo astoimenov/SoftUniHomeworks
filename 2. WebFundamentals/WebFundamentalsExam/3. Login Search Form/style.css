@@ -1,0 +1,128 @@
+@font-face {
+  font-family: glyphFont;
+  src: url("glyphicons-halflings-regular.ttf"); }
+html, body, div, span, img, input, form, label {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif, glyphFont;
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url("images/blurred-green-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  body div#wrapper {
+    width: 350px;
+    margin: 50px auto; }
+    body div#wrapper #username {
+      border: 1px solid #ccc;
+      border-radius: 3px 0 0 3px;
+      background-color: #eee;
+      display: inline-block;
+      width: 40px;
+      height: 34px;
+      line-height: 34px;
+      text-align: center;
+      position: relative;
+      top: 2px;
+      left: 15px; }
+      body div#wrapper #username:before {
+        content: "\e008"; }
+    body div#wrapper #pass {
+      border: 1px solid #ccc;
+      border-radius: 3px 0 0 3px;
+      background-color: #eee;
+      display: inline-block;
+      width: 40px;
+      height: 34px;
+      line-height: 34px;
+      text-align: center;
+      position: relative;
+      top: 2px;
+      left: 15px; }
+      body div#wrapper #pass:before {
+        content: "\e033"; }
+    body div#wrapper form {
+      background-color: #F1F8F0;
+      border-radius: 3px 3px 0 0;
+      -webkit-box-shadow: 0px 0px 5px 0px #646464;
+      -moz-box-shadow: 0px 0px 5px 0px #646464;
+      box-shadow: 0px 0px 5px 0px #646464;
+      width: 350px;
+      height: 265px; }
+      body div#wrapper form label {
+        background-color: #93D55C;
+        border-radius: 3px 3px 0 0;
+        color: #fff;
+        font-weight: bold;
+        width: 100%;
+        display: block;
+        text-align: center;
+        text-shadow: 1px 1px 2px #646464;
+        padding: 10px; }
+      body div#wrapper form > input {
+        border: 1px solid #ccc;
+        border-radius: 0 3px 3px 0;
+        display: block;
+        margin-right: 15px; }
+        body div#wrapper form > input[type=email] {
+          display: inline-block;
+          margin-top: 30px;
+          margin-bottom: 15px;
+          padding-left: 12px;
+          width: 280px;
+          height: 34px;
+          position: relative;
+          left: 10px; }
+        body div#wrapper form > input[type=password] {
+          display: inline-block;
+          width: 280px;
+          height: 34px;
+          padding-left: 12px;
+          position: relative;
+          left: 10px; }
+        body div#wrapper form > input[type=submit] {
+          background-color: #5CB85C;
+          border: 1px solid #4CAE4C;
+          border-radius: 4px;
+          -webkit-box-shadow: 0px 4px 0px 0px #229E22;
+          -moz-box-shadow: 0px 4px 0px 0px #229E22;
+          box-shadow: 0px 4px 0px 0px #229E22;
+          color: #fff;
+          width: 320px;
+          height: 35px;
+          margin: 30px 15px; }
+          body div#wrapper form > input[type=submit]:hover {
+            background-color: #449D44;
+            border: 1px solid #398439;
+            cursor: pointer; }
+    body div#wrapper input[type=search] {
+      border: 1px solid #ccc;
+      border-radius: 3px 0 0 3px;
+      display: inline-block;
+      width: 262px;
+      height: 34px;
+      margin-top: 30px;
+      padding-left: 12px; }
+    body div#wrapper .search {
+      border-radius: 0 3px 3px 0;
+      display: inline-block;
+      background-color: #5CB85C;
+      border: 1px solid #4CAE4C;
+      width: 84px;
+      height: 34px;
+      position: relative;
+      right: 5px; }
+      body div#wrapper .search #searchText {
+        color: #fff; }
+        body div#wrapper .search #searchText:before {
+          content: "\e003"; }
+      body div#wrapper .search:hover {
+        background-color: #449D44;
+        border: 1px solid #398439;
+        cursor: pointer; }

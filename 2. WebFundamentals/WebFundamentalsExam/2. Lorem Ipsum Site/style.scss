@@ -1,0 +1,117 @@
+html, body, div, span, nav, footer, span, img, article, section, a, p, ul, li, h1 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+    font-family: Tahoma, sans-serif;
+    font-size: inherit;
+    font-weight: normal;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    & > header {
+        background-color: #eee;
+        background-size: cover;
+        border-bottom: 1px solid #e6e6e6;
+        div#header-content {
+            width: 920px;
+            padding: 20px;
+            margin: 0 auto;
+            nav {
+                float: right;
+                ul {
+                    li {
+                        color: #818181;
+                        display: inline-block;
+                        font-weight: bold;
+                        padding: 20px;
+                        margin-right: 50px;
+                        &:hover {
+                            background-color: #CAD1D1;
+                            border-radius: 9px;
+                            color: #555;
+                            cursor: pointer;
+                        }
+                        &:first-child {
+                            color: #F99600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section {
+        width: 840px;
+        height: auto;
+        margin: 40px auto;
+        header {
+            h1 {
+                font-size: 1.6em;
+                margin-bottom: 30px;
+            }
+        }
+        article {
+            display: inline-block;
+            float: left;
+            &:nth-child(2) {
+                margin-right: 35px;
+            }
+            p {
+                width: 400px;
+                padding-bottom: 35px;
+            }
+        }
+    }
+    footer {
+        background-color: #eee;
+        border-top: 1px solid #d8d8d8;
+        clear: both;
+        div#footer-content {
+            width: 920px;
+            padding: 40px;
+            margin: 0 auto;
+            span#copy {
+            }
+            span#social {
+                float: right;
+                ul {
+                    li {
+                        display: inline-block;
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 5px;
+                        &#fb {
+                        	background: url('images/icons.png') 0 0;
+                        	&:hover {
+                        		background: url('images/icons.png') -40px 0;
+                        	}
+                        }
+                        &#gplus {
+                        	background: url('images/icons.png') 0 -40px;
+                        	&:hover {
+                        		background: url('images/icons.png') -40px -40px;
+                        	}
+                        }
+                        &#twitter {
+                        	background: url('images/icons.png') 0 -80px;
+                        	&:hover {
+                        		background: url('images/icons.png') -40px -80px;
+                        	}
+                        }
+                        &#tumblr {
+                        	background: url('images/icons.png') 0 -120px;
+                        	&:hover {
+                        		background: url('images/icons.png') -40px -120px;
+                        	}
+                        }
+                        &:hover {
+                        	cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

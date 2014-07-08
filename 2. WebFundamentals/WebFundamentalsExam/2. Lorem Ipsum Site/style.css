@@ -1,0 +1,83 @@
+html, body, div, span, nav, footer, span, img, article, section, a, p, ul, li, h1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000;
+  font-family: Tahoma, sans-serif;
+  font-size: inherit;
+  font-weight: normal;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+body > header {
+  background-color: #eee;
+  background-size: cover;
+  border-bottom: 1px solid #e6e6e6; }
+  body > header div#header-content {
+    width: 920px;
+    padding: 20px;
+    margin: 0 auto; }
+    body > header div#header-content nav {
+      float: right; }
+      body > header div#header-content nav ul li {
+        color: #818181;
+        display: inline-block;
+        font-weight: bold;
+        padding: 20px;
+        margin-right: 50px; }
+        body > header div#header-content nav ul li:hover {
+          background-color: #CAD1D1;
+          border-radius: 9px;
+          color: #555;
+          cursor: pointer; }
+        body > header div#header-content nav ul li:first-child {
+          color: #F99600; }
+body section {
+  width: 840px;
+  height: auto;
+  margin: 40px auto; }
+  body section header h1 {
+    font-size: 1.6em;
+    margin-bottom: 30px; }
+  body section article {
+    display: inline-block;
+    float: left; }
+    body section article:nth-child(2) {
+      margin-right: 35px; }
+    body section article p {
+      width: 400px;
+      padding-bottom: 35px; }
+body footer {
+  background-color: #eee;
+  border-top: 1px solid #d8d8d8;
+  clear: both; }
+  body footer div#footer-content {
+    width: 920px;
+    padding: 40px;
+    margin: 0 auto; }
+    body footer div#footer-content span#social {
+      float: right; }
+      body footer div#footer-content span#social ul li {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px; }
+        body footer div#footer-content span#social ul li#fb {
+          background: url("images/icons.png") 0 0; }
+          body footer div#footer-content span#social ul li#fb:hover {
+            background: url("images/icons.png") -40px 0; }
+        body footer div#footer-content span#social ul li#gplus {
+          background: url("images/icons.png") 0 -40px; }
+          body footer div#footer-content span#social ul li#gplus:hover {
+            background: url("images/icons.png") -40px -40px; }
+        body footer div#footer-content span#social ul li#twitter {
+          background: url("images/icons.png") 0 -80px; }
+          body footer div#footer-content span#social ul li#twitter:hover {
+            background: url("images/icons.png") -40px -80px; }
+        body footer div#footer-content span#social ul li#tumblr {
+          background: url("images/icons.png") 0 -120px; }
+          body footer div#footer-content span#social ul li#tumblr:hover {
+            background: url("images/icons.png") -40px -120px; }
+        body footer div#footer-content span#social ul li:hover {
+          cursor: pointer; }

@@ -1,0 +1,68 @@
+html, body, div, span, h1, h2,
+h3, img, article, section, a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+    font-size: inherit;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	section {
+		padding: 0.5em;
+		article {
+			display: inline-block;
+			width: 145px;
+			height: 100%;
+			padding: 0.25em;
+			vertical-align: top;
+			img {
+				border: 1px solid #DADEE4;
+				cursor: pointer;
+				display: block;
+				margin: 0 auto;
+			}
+			h3 {
+				padding: 1em 0;
+				text-transform: uppercase;
+				a {
+					text-decoration: none;
+					color: #000;
+					&:hover {
+						color: #7D7D7D;
+					}
+				}
+			}
+			.author {
+				color: #696969;
+				line-height: 1.6em;
+			}
+			.price {
+				color: #8F0509;
+				font-weight: bold;
+				line-height: 1.5em;
+			}
+			button {
+				background: url('images/shopping-cart-inactive.png') no-repeat;
+				border: 0;
+				border-radius: 3px;
+				color: #323232;
+				cursor: pointer;
+				font-size: 1em;
+				margin-top: 1em;
+				padding-left: 1.5em;
+				width: 10em;
+				height: 1.5em;
+				text-transform: uppercase;
+				&:hover {
+					background: url('images/shopping-cart-active.png') no-repeat;
+					color: #000;
+				}
+			}
+		}
+	}
+}
