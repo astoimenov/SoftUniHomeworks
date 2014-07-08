@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+     font-family: HawaiiFont;
+     src: url('resources/Animated.ttf');
+ }
+div {
+    position: absolute;
+    background-repeat: no-repeat;
+    font-family: HawaiiFont;
+    color: #FDBC21;
+    font-size: 3em;
+}
+#sun {
+    left: -540px;
+    width: 1440px;
+    height: 350px;
+    display: inline-block;
+    background: #ffffff;
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #f9f7b4 12%, #0067db 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(12%, #f9f7b4), color-stop(100%, #0067db));
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #f9f7b4 12%, #0067db 100%);
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #f9f7b4 12%, #0067db 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #f9f7b4 12%, #0067db 100%);
+    background: radial-gradient(ellipse at center, #ffffff 0%, #f9f7b4 12%, #0067db 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#0067db', GradientType=1);
+}
+#container {
+    background-image: url('resources/HawaiiBackground.png');
+    width: 900px;
+    height: 600px;
+    z-index: 0;
+}
+#vlado-g {
+    background-image: url('resources/VladoGHula.png');
+    width: 265px;
+    height: 350px;
+    top: 220px;
+    left: 40px;
+    z-index: 1;
+}
+#petya {
+    background-image: url('resources/PetiaHula.png');
+    width: 238px;
+    height: 375px;
+    top: 190px;
+    left: 180px;
+    z-index: 2;
+}
+#teodor {
+    background-image: url('resources/TediHula.png');
+    width: 156px;
+    height: 220px;
+    top: 360px;
+    left: 260px;
+    z-index: 3;
+}
+#nakov {
+    background-image: url('resources/NakovHula.png');
+    width: 216px;
+    height: 400px;
+    top: 160px;
+    left: 415px;
+    z-index: 1;
+}
+#alex {
+    background-image: url('resources/AlexHula.png');
+    width: 238px;
+    height: 375px;
+    top: 200px;
+    left: 490px;
+    z-index: 2;
+}
+#vlado-k {
+    background-image: url('resources/VladoKHula.png');
+    width: 213px;
+    height: 350px;
+    top: 235px;
+    left: 670px;
+    z-index: 1;
+}
+#text {
+	top: 15px;
+	left: 470px;
+	z-index: 2;
+}
+#cursor	{
+	background-image: url('resources/cursor.png');
+	width: 32px;
+	height: 32px;
+	top: 70px;
+	left: 245px;
+	z-index: 2
+}

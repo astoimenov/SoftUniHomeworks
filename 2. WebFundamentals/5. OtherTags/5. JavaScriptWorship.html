@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>5. JavaScriptWorship</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    canvas {
+        margin: 2px;
+        border: 3px dotted #f00;
+        width: 240px;
+        height: 260px;
+    }
+    </style>
+</head>
+
+<body>
+    <canvas id="myCanvas"></canvas>
+    <script type="text/javascript">
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "13pt Meiryo";
+    ctx.fillText("I love JavaScript", 15, 29);
+    ctx.fillStyle = "#F5D04C";
+    ctx.fillRect(63, 46, 167, 77);
+    ctx.fillStyle = "#000";
+    ctx.font = "35pt Arial bold";
+    ctx.fillText("JS", 160, 115);
+
+    
+    </script>
+</body>
+
+</html>

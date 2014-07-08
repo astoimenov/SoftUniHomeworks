@@ -1,0 +1,131 @@
+#wrapper {
+    width: 1175px;
+    height: 401px;
+    background-color: #00923E;
+    padding: 18px 20px 20px 20px;
+}
+ table {
+    width: 100%;
+    height: 100%;
+    font-size: 1.4em;
+    border: 2px solid #000;
+    border-radius: 22px;
+    overflow: hidden;
+}
+table, th, td {
+    border: 2px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+th {
+    font-weight: bold;
+    background-color: #F8C711;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+td {
+    height: 68px;
+}
+tr:nth-child(even) {
+	background-color: #c8c8c8;
+}
+tr:nth-child(odd) {
+	background-color: #fff;
+}
+.country-right-flag {
+    min-width: 196px;
+    text-align: right;
+    padding-right: 15px;
+}
+.country-left-flag {
+    width: 204px;
+    text-align: left;
+    padding-left: 15px;
+}
+.country-right {
+    min-width: 166px;
+    text-align: right;
+    padding-right: 15px;
+}
+.country-left {
+    min-width: 159px;
+    text-align: left;
+    padding-left: 15px;
+}
+.flag {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 30px;
+    height: 20px;
+    background-size: 30px 20px;
+    background-repeat: no-repeat;
+}
+#brazil {
+    background-image: url('http://mapsnworld.com/flags/brazil-flag.gif');
+}
+#mexico {
+    background-image: url('http://mapsnworld.com/flags/mexico-flag.gif');
+}
+#spain {
+    background-image: url('http://mapsnworld.com/flags/spain.gif');
+}
+#netherlands {
+    background-image: url('http://mapsnworld.com/flags/netherlands-flag.jpg');
+}
+#italy {
+    background-image: url('http://mapsnworld.com/flags/italy-flag.gif');
+}
+#england {
+    background-image: url('http://www.betglory.com/wp-content/uploads/2014/01/england-flag-v.small_.jpg');
+}
+#argentina {
+    background-image: url('http://www.mapsnworld.com/flags/argentina-flag.gif');
+}
+#bosnia {
+    background-image: url('http://mapsnworld.com/flags/bosnia-flag.gif');
+}
+#germany {
+    background-image: url('http://mapsnworld.com/flags/germany-flag.jpg');
+}
+#portugal {
+    background-image: url('http://mapsnworld.com/flags/portugal.gif');
+}
+.result {
+    width: 117px;
+}
+.group {
+    width: 115px;
+}
+.bet-result {
+    padding: 10px;
+}
+select {
+    width: 45px;
+    height: 44px;
+    border: 1px solid #A9A9A9;
+    color: #f00;
+}
+#bet {
+    width: 70px;
+}
+.bet {
+	font-size: 0.7em;
+	margin: 0 auto;
+	background-color: #f00;
+    color: #fff;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 25px;
+    border-top: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #898989;
+    border-bottom: 2px solid #898989;
+}
+td.not-played select {
+	color: #008000;
+}
+div.not-played {
+	background-color: #008000;
+}

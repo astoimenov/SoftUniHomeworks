@@ -1,0 +1,118 @@
+body {
+    background-image: url('colorful_dots_on_black.jpg');
+    width: 1582px;
+    height: 2536px;
+    font-size: 1.4em;
+}
+a, a:visited {
+    color: #808080;
+    font-style: italic;
+}
+ul li a, ul li a:visited {
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+}
+ul li a:visited {
+    color: #808080;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    margin-top: 5px;
+}
+body > header {
+    box-sizing: border-box;
+    background-color: #008000;
+    width: 100%;
+    height: 100px;
+    color: #ff0;
+    text-align: center;
+    border-left: 530px solid #f00;
+    border-right: 520px solid #00f;
+    font-size: 2.7em;
+}
+article, nav {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 28px;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 12px;
+}
+section article:first-child, nav {
+    margin-top: 40px;
+}
+nav {
+    width: 315px;
+    height: 330px;
+    float: left;
+    margin-left: 15px;
+}
+nav > header {
+    font-size: 1.3em;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+nav ul li {
+    border-radius: 9px;
+    padding: 5px;
+}
+nav ul li {
+    padding-left: 40px;
+    background-image: url(tick.png);
+    background-repeat: no-repeat;
+    background-position: 0.5em;
+}
+article {
+    margin-bottom: 12px;
+    margin-right: 43px;
+    width: 1160px;
+    float: right;
+}
+article > header {
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: normal;
+    padding: 16px;
+    border-radius: 9px;
+}
+#webColors, nav ul li:nth-child(1):hover {
+    background-color: #f00;
+}
+#webSafeColors, nav ul li:nth-child(2):hover {
+    background-color: #ffa500;
+    color: #000;
+}
+#RGB, nav ul li:nth-child(3):hover {
+    background-color: #ff0;
+    color: #000;
+}
+#RGBA, nav ul li:nth-child(4):hover {
+    background-color: #008000;
+}
+#\#HSLHSV, nav ul li:nth-child(5):hover {
+    background-color: #00f;
+}
+#\#lorem, nav ul li:nth-child(6):hover {
+    background-color: #800080;
+}
+article div:first-line {
+	font-style: italic;
+}
+article div:first-letter {
+    font-size: 3.5em;
+}
+section article:last-child > span:nth-child(2) {
+    font-weight: 500;
+    font-style: italic;
+    color: #00008B;
+}
+section article:last-child > span:nth-child(2)::before {
+    content: '" ';
+}
+section article:last-child > span:nth-child(2)::after {
+    content: ' "';
+}

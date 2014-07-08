@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+#epay {
+    background-image: url('images/formBackground.jpg');
+    border-radius: 3px;
+    color: #111;    
+    width: 400px;
+    height: 670px;
+    margin: 3px;    
+}
+fieldset {
+    border: 0;
+    padding: 12px 18px 15px 18px;
+}
+legend {
+    color: #eaeaea;
+    font-size: 0.8em;    
+    font-weight: bold;
+}
+.field {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    margin: 2px;
+    margin-right: 61px;
+    padding: 8px;
+    width: 360px;
+}
+.text {
+    height: 39px;
+}
+.area {
+    height: 105px;
+}
+.radio {
+    height: 67px;
+}
+input[type=text], input[type=email], 
+input[type=password], input[type=tel], 
+textarea {
+    border: 0;
+    border-radius: 2px;
+    position: relative;
+    float: right;
+    clear: right;
+    margin-right: 40px;
+    padding-left: 5px;
+}
+input[type=text], input[type=email], 
+input[type=password], input[type=tel] {
+    width: 190px;
+    height: 24px;    
+}
+textarea {    
+    width: 189px;
+    height: 84px;    
+    padding-top: 4px;
+    vertical-align: top;    
+}
+input[type=radio] {
+    margin-left: 10px;
+}
+#visa-label {
+	background: url('images/visa.png') no-repeat;
+	padding-left: 30px;
+}
+#amex-label {
+	background: url('images/amex.png') no-repeat;
+	padding-left: 30px;
+}
+#master-card-label {
+	background: url('images/mastercard.png') no-repeat;
+	padding-left: 30px;
+}
+input[type=submit] {
+	background-color: #04152F;
+	border: 0;
+    border-color: #04152F;
+	border-radius: 12px;    
+	color: #fff;
+    display: block;
+    width: 92px;
+    height: 27px;
+    margin: 10px auto;
+}

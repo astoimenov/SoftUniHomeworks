@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3. StylingHTMLForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="epay">
+        <fieldset>
+            <legend>Step1: Your details</legend>
+            <div class="field text">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="First and last name">
+            </div>
+            <div class="field text">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="example@domain.com">
+            </div>
+            <div class="field text">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="eg. +447500000000">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Step 2: Delivery address</legend>
+            <div class="field area">
+                <label for="address">Address</label>
+                <textarea name="address" id="address" autofocus></textarea>
+            </div>
+            <div class="field text">
+                <label for="post-code">Post code</label>
+                <input type="text" name="post-code" id="post-code">
+            </div>
+            <div class="field text">
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Step 3: Card details</legend>
+            <div class="field radio">
+                <label for="card-type">Card type</label>
+                <div id="card-type">
+                    <input type="radio" name="ctype" value="visa" id="visa">
+                    <label for="visa" id="visa-label">VISA</label>
+                    <input type="radio" name="ctype" value="amex" id="amex">
+                    <label for="amex" id="amex-label">AmEx</label>
+                    <input type="radio" name="ctype" value="master-card" id="master-card">
+                    <label for="master-card" id="master-card-label">Mastercard</label>
+                </div>
+            </div>
+            <div class="field text">
+                <label for="card-num">Card number</label>
+                <input type="text" name="card-num" id="card-num">
+            </div>
+            <div class="field text">
+                <label for="code">Security code</label>
+                <input type="password" name="code" id="code">
+            </div>
+            <div class="field text">
+                <label for="card-name">Name on card</label>
+                <input type="text" name="card-name" id="card-name" placeholder="Exact name as on the card">
+            </div>
+            <input type="submit" value="BUY IT!">
+        </fieldset>        
+    </form>
+</body>
+
+</html>

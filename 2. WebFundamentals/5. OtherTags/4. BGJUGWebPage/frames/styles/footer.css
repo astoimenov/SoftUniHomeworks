@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+    color: #5E665C;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+th {
+    text-transform: uppercase;
+    color: #fff;
+}
+#foot-header {
+    text-transform: none;
+}
+#copy {
+    color: #5E665C;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+th, td {
+    width: 20%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
