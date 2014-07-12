@@ -1,4 +1,4 @@
-@-webkit-keyframes spaceboots {
+@-webkit-keyframes shake {
   0% {
     -webkit-transform: translate(2px, 1px) rotate(0deg); }
 
@@ -32,38 +32,55 @@
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
     -ms-transform: translate(1px, -2px) rotate(-1deg); } }
-@keyframes spin {
-  from {
-    transform: scale(0.1, 0.1) skew(0deg) rotate(0deg); }
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg); }
 
-  to {
-    transform: scale(1, 1) skew(0deg) rotate(360deg); } }
+  25% {
+    -webkit-transform: translate(200px, 200px) rotate(0deg);
+    width: 300px;
+    height: 200px; }
+
+  50% {
+    -webkit-transform: translate(200px, 200px) rotate(360deg);
+    width: 300px;
+    height: 200px; }
+
+  100% {
+    -webkit-transform: translate(-100px, 0px); } }
 body {
   background-color: #bab9b9; }
   body div#wrapper {
     border-radius: 5px;
-    background-color: #ddd;
+    background-color: #dddddd;
     -webkit-box-shadow: 0px 0px 13px 0px #323232;
     -moz-box-shadow: 0px 0px 13px 0px #323232;
     box-shadow: 0px 0px 13px 0px #323232;
     width: 580px;
-    height: 510px; }
+    height: 530px; }
     body div#wrapper div#pics {
-      margin: 15px 50px;
+      margin: 15px 45px;
       display: inline-block; }
-      body div#wrapper div#pics img {
-        border: 3px solid #fff;
-        cursor: pointer;
+      body div#wrapper div#pics a {
+        position: relative;
+        display: inline-block;
+        margin: 5px;
         width: 150px;
-        height: 110px;
-        -webkit-transition: all .2s ease-in-out; }
-        body div#wrapper div#pics img:hover {
-          -webkit-animation-name: spaceboots;
-          -webkit-animation-duration: 0.8s;
-          -webkit-transform-origin: 50% 50%;
-          -webkit-animation-iteration-count: infinite;
-          -webkit-animation-timing-function: linear; }
-        body div#wrapper div#pics img:focus {
-          -webkit-transform: scale(2); }
-        body div#wrapper div#pics img:active {
-          -webkit-transform: scale(2); }
+        height: 110px; }
+        body div#wrapper div#pics a img {
+          border: 3px solid white;
+          cursor: pointer;
+          width: 150px;
+          height: 110px;
+          -webkit-transition: all 0.2s ease-in-out; }
+          body div#wrapper div#pics a img:hover {
+            -webkit-animation-name: shake;
+            -webkit-animation-duration: 0.8s;
+            -webkit-transform-origin: 50% 50%;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear; }
+          body div#wrapper div#pics a img:active {
+            position: absolute;
+            z-index: 1;
+            -webkit-transform: translate(-100px, 0);
+            -webkit-animation: rotate 2s; }
