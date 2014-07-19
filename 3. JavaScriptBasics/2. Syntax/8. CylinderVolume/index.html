@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>8. CylinderVolume</title>
+    <link rel="stylesheet" href="../js-console.css">
+</head>
+
+<body>
+    <section>
+        <span>
+            <label for="radius">Radius:</label>
+            <input type="text" id="radius" />
+        </span>
+        <span>
+            <label for="height">Height:</label>
+            <input type="text" id="height" />
+        </span>
+        <span class="a">
+            <a href="#" id="btn-power" onclick="cylinderVol(document.getElementById('radius').value, document.getElementById('height').value)">Calcuate</a>
+        </span>
+    </section>
+    <div id="js-console">
+    </div>
+    <script src="../js-console.js">
+    </script>
+    <script src="cylinder-volume.js">
+    </script>
+</body>
+
+</html>

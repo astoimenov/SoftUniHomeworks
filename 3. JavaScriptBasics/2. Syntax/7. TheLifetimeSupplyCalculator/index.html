@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>7. TheLifetimeSupplyCalculator</title>
+    <link rel="stylesheet" href="../js-console.css">
+</head>
+
+<body>
+    <section>
+        <span>
+            <label for="age">Age:</label>
+            <input type="text" id="age" />
+        </span>
+        <span>
+            <label for="maxAge">Max age:</label>
+            <input type="text" id="maxAge" />
+        </span>
+        <span>
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" />
+        </span>
+        <span class="a">
+            <a href="#" id="btn-power" onclick="calcSupply(document.getElementById('age').value, document.getElementById('maxAge').value, document.getElementById('amount').value)">Calculate</a>
+        </span>
+    </section>
+    <div id="js-console">
+    </div>
+    <script src="../js-console.js">
+    </script>
+    <script src="lifetime-supply-calc.js">
+    </script>
+</body>
+
+</html>
