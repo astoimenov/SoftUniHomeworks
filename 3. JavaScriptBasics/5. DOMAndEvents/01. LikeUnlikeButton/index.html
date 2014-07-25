@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>01. LikeUnlikeButton</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    button {
+    	color: #6D84B4;
+    	background: #fff;
+    	border: 2px solid #6D84B4;
+    	width: 100px;
+    	height: 50px;
+    }
+    button:hover {
+    	cursor: pointer;
+    	text-decoration: underline;
+    }
+    </style>
+</head>
+
+<body>
+    <button id="btn">Like</button>
+    <script type="text/javascript">
+    var button = document.getElementById("btn");
+    button.addEventListener('click', function() {
+        if (button.innerHTML === 'Like') {
+        	button.innerHTML = 'Unlike';
+        } else {
+        	button.innerHTML = 'Like';
+        }
+    }, false);
+    </script>
+</body>
+
+</html>

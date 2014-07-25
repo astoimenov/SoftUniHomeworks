@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>02. DisplayDivsContent</title>
+</head>
+
+<body>
+    <div>first div</div>
+    <div>second div</div>
+    <div class="empty"></div>
+    <div>third div
+        <div>inner div</div>
+    </div>
+    <ul id="result"></ul>
+    <script>
+    (function displayDivsContent() {
+        var result = document.getElementById('result');
+        var divs = document.querySelectorAll('div');
+        var frag = document.createDocumentFragment();
+
+        for (var div in divs) {
+            if (divs[div] instanceof HTMLDivElement && !(divs[div].classList.contains('empty'))) {
+                var li = document.createElement('li');
+                li.innerHTML = divs[div].innerText;
+                frag.appendChild(li);
+            }
+        }
+        result.appendChild(frag);
+    })();
+    </script>
+
+</body>
+
+</html>

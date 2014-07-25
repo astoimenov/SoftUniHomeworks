@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>04. NumbersOnlyField</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="onlyNumbers" id="onlyNumbers">
+    </form>
+    <script type="text/javascript">
+    	var input = document.getElementById('onlyNumbers');
+    	input.addEventListener('input', function (e) {
+    		var target = e.target;
+    		var value = target.value;
+    		if (isNaN(value)) {
+    			input.style.backgroundColor = 'red';
+    			input.setAttribute('readonly', 'readonly');
+    			
+    			setTimeout(function () {
+	                input.style.backgroundColor = 'white';
+	                input.removeAttribute('readonly');
+	            }, 1000);
+    		}
+    	}, false);
+
+    </script>
+</body>
+
+</html>
