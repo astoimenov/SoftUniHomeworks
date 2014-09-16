@@ -1,0 +1,15 @@
+form {
+    width: 45%;
+    float: left;
+    margin-right: 20px;
+}
+table {
+    width: 100%;
+    margin: 10px 0;
+}
+body > table {
+    width: 45%;
+}
+td {
+    padding: 0 10px;
+}

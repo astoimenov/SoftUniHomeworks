@@ -8,14 +8,14 @@ function compareChars(firstArray, secondArray) {
 	for (var i = 0; i < secondArray.length; i += 1) {
 		secondSum += secondArray[i].charCodeAt(0);
 	}
-	jsConsole.writeLine('[' + firstArray + ']');
-	jsConsole.writeLine('[' + secondArray+ ']');
+	console.log('[' + firstArray + ']');
+	console.log('[' + secondArray+ ']');
 	if (firstSum == secondSum) {
-		jsConsole.writeLine('Equal');
+		console.log('Equal');
 	} else {
-		jsConsole.writeLine('Not equal')
+		console.log('Not equal')
 	}
-	jsConsole.writeLine();
+	console.log();
 }
 compareChars(['1', 'f', '1', 's', 'g', 'j', 'f', 'u', 's', 'q'], ['1', 'f', '1', 's', 'g', 'j', 'f', 'u', 's', 'q']);
 compareChars(['3', '5', 'g', 'd'], ['5', '3', 'g', 'd']);

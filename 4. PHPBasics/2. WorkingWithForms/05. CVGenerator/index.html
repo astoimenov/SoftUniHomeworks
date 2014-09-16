@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CV Generator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+	<form enctype="multipart/form-data" action="http://homeworks.littleninja.softuni-friends.org/4.%20PHPBasics/05.%20CVGenerator/05.%20CVGenerator.php" method="post">
+		<fieldset>
+			<legend>Personal information</legend>
+			<input type="text" name="fn" placeholder="First name" pattern="[A-Za-zА-яа-я]{2,20}" required="required"><br>
+			<input type="text" name="ln" placeholder="Last name" pattern="[A-Za-zА-яа-я]{2,20}" required="required"><br>
+			<label for="image">Image: </label>
+			<input type="file" name="image"><br>
+			<input type="email" name="email" placeholder="Email" pattern=".+\@.+\..+" required="required"><br>
+			<input type="tel" name="phone" placeholder="Phone number" pattern="[\d+-]+" required="required"><br>
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="Female" required="required">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="Male" required="required"><br>
+			<label for="bday">Birth date</label><br>
+			<input type="date" name="bday" required="required"><br>
+			<select name="nation" required>
+				<option disabled="disabled" selected="true">Nationality</option>
+				<option value="Bulgarian">Bulgarian</option>
+				<option value="English">English</option>
+				<option value="American">American</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Last Work Position</legend>
+			<label for="company">Company Name </label>
+			<input type="text" name="company"><br>
+			<label for="workedFrom">From </label>
+			<input type="date" name="workedFrom"><br>
+			<label for="workedTo">To </label>
+			<input type="date" name="workedTo"><br>
+		</fieldset>
+		<fieldset id="programmingLang">
+			<legend>Computer Skills</legend>
+			<label for="pr-lang">Programming Language</label><br>
+			<input type="text" name="pr-lang">
+			<select name="lvl">
+				<option disabled="disabled" selected="true">Level</option>
+				<option value="Beginner">Beginner</option>
+				<option value="Programmer">Programmer</option>
+				<option value="Ninja">Ninja</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Other Skills</legend>
+			<label for="lang">Language</label><br>
+			<input type="text" name="lang">
+			<select name="comprehension">
+				<option disabled="disabled" selected="true">-Comprehension-</option>
+				<option value="Beginner">Beginner</option>
+				<option value="Intermediate">Intermediate</option>
+				<option value="Advanced">Advanced</option>
+			</select>
+			<select name="reading">
+				<option disabled="disabled" selected="true">-Reading-</option>
+				<option value="Beginner">Beginner</option>
+				<option value="Intermediate">Intermediate</option>
+				<option value="Advanced">Advanced</option>
+			</select>
+			<select name="writing">
+				<option disabled="disabled" selected="true">-Writing-</option>
+				<option value="Beginner">Beginner</option>
+				<option value="Intermediate">Intermediate</option>
+				<option value="Advanced">Advanced</option>
+			</select>
+			<label for="license">Driver's license</label><br>
+			<label for="b">B</label>
+			<input type="checkbox" name="license[]" value="B" id="b">
+			<label for="a">A</label>
+			<input type="checkbox" name="license[]" value="A" id="a">
+			<label for="c">C</label>
+			<input type="checkbox" name="license[]" value="C" id="c">
+		</fieldset>
+		<input type="submit" value="Generate CV" name="submit">
+	</form>
+</body>
+</html>

@@ -10,5 +10,6 @@ function printNumbers(number) {
             jsConsole.writeLine('no');
         }
     }
-    jsConsole.write(numbers.join(', '));
+    console.log(numbers.join(', '));
 }
+printNumbers(20)

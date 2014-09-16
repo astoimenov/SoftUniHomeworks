@@ -1,11 +1,11 @@
 function findPalindromes(text) {
     var toLower = text.toLowerCase();
     var i;
-    var words = toLower.replace(/[,.]/g, '').split(' ');
+    var words = toLower.split(/[\W]+/).filter(Boolean);
     var result = [];
 
     for (i = 0; i < words.length; i++) {
-        if (words[i] === words[i].split('').reverse().join('')) {
+        if (words[i] == words[i].split('').reverse().join('')) {
             result.push(words[i]);
         }
     }
