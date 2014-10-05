@@ -1,5 +1,4 @@
-﻿using System;
-namespace P03Animals
+﻿namespace P03Animals
 {
     public enum Gender
     {

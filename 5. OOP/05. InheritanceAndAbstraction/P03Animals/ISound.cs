@@ -1,6 +1,6 @@
 ﻿namespace P03Animals
 {
-    interface ISound
+    public interface ISound
     {
         void ProduceSound();
     }
