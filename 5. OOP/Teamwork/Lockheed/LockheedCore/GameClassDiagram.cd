@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LockHeedCore.Character.Character" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQCAAAAAIAAAgAAAAABEMAAACAgAACAAAAIAAAIYAA=</HashCode>
+      <FileName>Character\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LockHeedCore.EntityManager" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEgAAAAAAAAAAAAAEAAAQAAAAAAAACAA=</HashCode>
+      <FileName>EntityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Events" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAEAEAAAAAAAAAAAAAAACAAIAAAAKAAAAAAQA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Inventory.Inventory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAKAAAAAgAAAAAAAAAAAACAEAAAAAAA=</HashCode>
+      <FileName>Inventory\Inventory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LockHeedCore.Inventory.Slots.Slot" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAIAAAACAAAAAAAAAAAAgAAAAAIAAAAA=</HashCode>
+      <FileName>Inventory\Slots\Slot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LockHeedCore.Level.Enemy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAgAAAAAMEEAAQSgABACAAAAAAAAAYAA=</HashCode>
+      <FileName>Level\Enemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LockHeedCore.Level.Level" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoACAAAAAAAAAgAEAAIAAEAAAAEABAAAAAABAEAAAAA=</HashCode>
+      <FileName>Level\Level.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LockHeedCore.Level.Obstacle.ChestObstacle" Collapsed="true">
+    <Position X="1" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Level\Obstacle\ChestObstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Level.Obstacle.Obstacle" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAAAAAEAAACAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Level\Obstacle\Obstacle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LockHeedCore.Program" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAgAAAAQAAQAAAAAAAAARABAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Skill.Effect.Effect" Collapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAAAgAAAAAAAEAAACAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Skill\Effect\Effect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LockHeedCore.Skill.NovaSkill" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skill\NovaSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Skill.ProjectileSkill" Collapsed="true">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skill\ProjectileSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Skill.Skill" Collapsed="true">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAgAAAAAAACAAAAAgQEAAAEBAgCAAAAggAAAIA=</HashCode>
+      <FileName>Skill\Skill.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LockHeedCore.Sprites.SpriteSheet" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAA=</HashCode>
+      <FileName>Sprites\SpriteSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.Weapon" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgCIAAIAiAAAAAAAAEAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.OneHanded.BastardSword" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\OneHanded\BastardSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.OneHanded.Dagger" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\OneHanded\Dagger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.OneHanded.Hatchet" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\OneHanded\Hatchet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.OneHanded.Wand" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\OneHanded\Wand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.TwoHanded.Bow" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\TwoHanded\Bow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.TwoHanded.Crossbow" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\TwoHanded\Crossbow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.TwoHanded.GreatSword" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\TwoHanded\GreatSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Level.Obstacle.DeadlyObstacle" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Level\Obstacle\DeadlyObstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Level.Obstacle.ObstructedObstacle" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Level\Obstacle\ObstructedObstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Character.Mage" Collapsed="true">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Character\Mage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Character.Rogue" Collapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Character\Rogue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Character.Warrior" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Character\Warrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Skill.Effect.Projectile" Collapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEIAAAAIAEAAAAAAAAAAAAEDAAAAAAAAAAAA=</HashCode>
+      <FileName>Skill\Effect\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Weapons.TwoHanded.WarAxe" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\TwoHanded\WarAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Level.Door.Door" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAgAAAggAkAAAAAEAAAABQBAAAYABgAAAAAAA=</HashCode>
+      <FileName>Level\Door\Door.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LockHeedCore.Inventory.Item" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockHeedCore.Level.Map" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAIAAABAABAAAAAAAAAAA=</HashCode>
+      <FileName>Level\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="LockHeedCore.Character.Stats.Stats" Collapsed="true">
+    <Position X="19.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAAAAAABAAAAAQAAAABAAAAAQAAAIAAAgCg=</HashCode>
+      <FileName>Character\Stats\Stats.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="LockHeedCore.Interface.ICollidable" Collapsed="true">
+    <Position X="21" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\ICollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LockHeedCore.Interface.IDrawable" Collapsed="true">
+    <Position X="22.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LockHeedCore.Interface.IMoveable" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Interface\IMoveable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LockHeedCore.Inventory.Interface.IRemovable" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Inventory\Interface\IRemovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LockHeedCore.Inventory.Interface.ITakeable" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory\Interface\ITakeable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LockHeedCore.Inventory.Slots.Interfaces.ISlot" Collapsed="true">
+    <Position X="24.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAIAAAAA=</HashCode>
+      <FileName>Inventory\Slots\Interfaces\ISlot.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LockHeedCore.Skill.Interface.ICastable" Collapsed="true">
+    <Position X="19.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skill\Interface\ICastable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LockHeedCore.Skill.Interface.ILearnable" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Skill\Interface\ILearnable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="LockHeedCore.Level.Door.DoorPosition" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAACACAAAAAAAA=</HashCode>
+      <FileName>Level\Door\DoorPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LockHeedCore.Skill.Tier" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Skill\Tier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LockHeedCore.WeaponHandling" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\WeaponHandling.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

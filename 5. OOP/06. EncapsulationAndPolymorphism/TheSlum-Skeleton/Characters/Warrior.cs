@@ -7,7 +7,7 @@
 
     public class Warrior : Character, IAttack
     {
-        public Warrior(string id, int x, int y, Team team, int attackPoints = 150, int healthPoints = 200, int defensePoints = 100, int range = 2) 
+        public Warrior(string id, int x, int y, Team team, int attackPoints = 150, int healthPoints = 200, int defensePoints = 100, int range = 2)
             : base(id, x, y, team, healthPoints, defensePoints, range)
         {
             this.AttackPoints = attackPoints;

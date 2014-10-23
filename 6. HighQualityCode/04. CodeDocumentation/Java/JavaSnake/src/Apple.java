@@ -4,7 +4,7 @@ import java.util.Random;
 
 
 /**
- * @author Alexander
+ * @author me
  * 
  */
 public class Apple {
@@ -17,6 +17,11 @@ public class Apple {
 	appleColor = Color.RED;
     }
 
+    /**
+     * Create apple with random position.
+     * @param s Current snake.
+     * @return Return point element of type PointOfSnake
+     */
     private Point createApple(Snake snake) {
 	random = new Random();
 	int x = random.nextInt(30) * 20;
@@ -29,10 +34,18 @@ public class Apple {
 	return new Point(x, y);
     }
 
+    /**
+     * Draws an apple in the game
+     * @param Graphics object
+     */
     public void renderApple(Graphics g) {
 	applePoint.render(g, appleColor);
     }
 
+    /**
+     * Method to get apple's point
+     * @param Point 
+     */
     public Point getPoint() {
 	return applePoint;
     }

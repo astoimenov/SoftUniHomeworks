@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01Customer", "P01Customer\P01Customer.csproj", "{90D2495C-7EED-419D-8159-43B9A075632C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02StringDisperser", "P02StringDisperser\P02StringDisperser.csproj", "{CB0544B9-C461-4777-B39D-57D4F10B1250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03CustomTree", "P03CustomTree\P03CustomTree.csproj", "{09847AA5-FCB5-4BD9-9564-B2754605F744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90D2495C-7EED-419D-8159-43B9A075632C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D2495C-7EED-419D-8159-43B9A075632C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D2495C-7EED-419D-8159-43B9A075632C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D2495C-7EED-419D-8159-43B9A075632C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0544B9-C461-4777-B39D-57D4F10B1250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0544B9-C461-4777-B39D-57D4F10B1250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0544B9-C461-4777-B39D-57D4F10B1250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0544B9-C461-4777-B39D-57D4F10B1250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09847AA5-FCB5-4BD9-9564-B2754605F744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09847AA5-FCB5-4BD9-9564-B2754605F744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09847AA5-FCB5-4BD9-9564-B2754605F744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09847AA5-FCB5-4BD9-9564-B2754605F744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
