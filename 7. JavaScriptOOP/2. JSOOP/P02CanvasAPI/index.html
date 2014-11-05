@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Canvas API</title>
+    <style>
+        #circleForm, #rectangleFrom, #segmentForm, #triangleForm,
+        #shapesInfo {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <label for="x">X:</label>
+        <input type="number" value="" id="x" />
+        <label for="y">Y:</label>
+        <input type="number" value="" id="y" />
+        <label for="color">Color:</label>
+        <input type="color" value="" id="color" name="color" /><br />
+        <select name="shape" onchange="chooseShape()" id="shape">
+            <option disabled selected value="">Select shape</option>
+            <option value="circle">Circle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="segment">Segment</option>
+            <option value="triangle">Triangle</option>
+        </select>
+        <div id="circleForm">
+            <label for="radius">Radius</label>
+            <input type="number" value="" id="radius" /><br />
+        </div>
+        <div id="rectangleFrom">
+            <label>Width: </label>
+            <input type="number" value="" id="width" />
+            <label>Height: </label>
+            <input type="number" value="" id="height" /><br />
+        </div>
+        <div id="segmentForm">
+            <label>X2: </label>
+            <input type="number" value="" id="sbX" />
+            <label>Y2: </label>
+            <input type="number" value="" id="sbY" /><br />
+        </div>
+        <div id="triangleForm">
+            <label>X2: </label>
+            <input type="number" value="" id="bX" />
+            <label>Y2: </label>
+            <input type="number" value="" id="bY" /><br />
+            <label>X3: </label>
+            <input type="number" value="" id="cX" />
+            <label>Y3: </label>
+            <input type="number" value="" id="cY" />
+        </div>
+        <input type="button" value="Add" onclick="createShape()" />
+    </form>
+
+    <canvas id="myCanvas"></canvas>
+
+    <div id="shapesInfo">
+        <h1>Shapes:</h1>
+        <select size="4" id="shapes"></select>
+        <input type="button" value=" - " onclick="removeShape()" />
+    </div>
+
+    <script src="../P01Shapes/shapes.js"></script>
+    <script src="../P01Shapes/point.js"></script>
+    <script src="chooseShape.js"></script>
+    <script src="createShape.js"></script>
+</body>
+</html>
