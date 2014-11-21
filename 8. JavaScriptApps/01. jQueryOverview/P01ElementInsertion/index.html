@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Element Insertion</title>
+    <script src="../Scripts/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+    <div id="task">/* Using jQuery write a script for adding elements before/after other elements. */</div>
+    <script>
+        $('#task').before('<header></header>');
+        $('header').append('<h1>The header!</h1>');
+        
+
+        $('<ul id="list"></ul>').appendTo('#task');
+
+        var i = 1;
+        for (i; i <= 5; i += 1) {
+            $('#list').append('<li>item' + i + '</li>');
+        };
+
+        $('#task').after('<footer></footer>');
+        $('footer').append('<h2>I am the footer!</h2>');
+    </script>
+</body>
+</html>

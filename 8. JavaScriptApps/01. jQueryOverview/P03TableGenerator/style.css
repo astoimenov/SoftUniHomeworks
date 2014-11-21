@@ -1,0 +1,12 @@
+﻿table, th, td {
+    border: 1px solid #000;
+}
+
+thead {
+    text-transform: capitalize;
+    background-color: #00ff90;
+}
+
+th, td {
+    padding: 5px;
+}

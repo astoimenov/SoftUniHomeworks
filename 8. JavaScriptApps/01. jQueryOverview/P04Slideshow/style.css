@@ -1,0 +1,21 @@
+﻿#wrapper {
+    margin: 50px auto;
+    text-align: center;
+}
+
+    #wrapper div {
+        vertical-align: middle;
+    }
+
+#button-right, #button-left, #images-container {
+    display: inline-block;
+}
+
+#button-right, #button-left {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.image {
+    width: 800px;
+}

@@ -1,0 +1,18 @@
+﻿.filetree li {
+    cursor: pointer;
+    list-style: none;
+    padding: 3px 0 2px 10px;
+}
+
+.filetree span.folder, .filetree span.file {
+    display: block;
+    padding: 1px 0 1px 20px;
+}
+
+.filetree span.folder {
+    background: url('data:image/gif;base64,R0lGODlhEAAOAIIAAZdaH+C6eP/inq1zLf/////Sg59oJMOHNCwAAAAAEAAOAAIDN0i63P7vyAPXYBcewUsIk8RQFalsXKoCmDq8cEwMKa2mxWUUOe//GUDvB1wABsQiw8BsOitQQgIAOw==') 0 0 no-repeat;
+}
+
+.filetree span.file {
+    background: url('data:image/gif;base64,R0lGODdhDwAOAPIHANS9fIy3oamMQX98XzmJdP////9tcGpsYiwAAAAADwAOAEADOlgl3KxQjWJMGefIKGi1UAdNUUQqYgQAKVoE8KQtZgHAAUFsYWm3rtKKxfH1jsbWybdclpqDqHSqSAAAOw==') 0 0 no-repeat;
+}

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fading Message Box</title>
+    <script src="../Scripts/jquery-2.1.1.min.js"></script>
+    <script src="fading-message-box.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <script>
+        $(document).ready(function () {
+            $('body').append('<div id="message-box">');
+            var messageBox = $('#message-box').messageBox();
+            messageBox.success('Success message.');
+            // messageBox.error('Error message.');
+        });
+    </script>
+</body>
+</html>

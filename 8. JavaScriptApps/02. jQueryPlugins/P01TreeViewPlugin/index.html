@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tree View Plugin</title>
+    <script src="../Scripts/jquery-2.1.1.min.js"></script>
+    <script src="tree-view.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <ul id="browser" class="filetree">
+        <li>
+            <span class="folder">Folder 1</span>
+            <ul>
+                <li><span class="file">Item 1.1</span></li>
+            </ul>
+        </li>
+        <li>
+            <span class="folder">Folder 2</span>
+            <ul>
+                <li>
+                    <span class="folder">Subfolder 2.1</span>
+                    <ul id="folder21">
+                        <li><span class="file">File 2.1.1</span></li>
+                        <li><span class="file">File 2.1.2</span></li>
+                    </ul>
+                </li>
+                <li><span class="file">File 2.2</span></li>
+            </ul>
+        </li>
+        <li class="closed">
+            <span class="folder">Folder 3</span>
+            <ul>
+                <li><span class="file">File 3.1</span></li>
+            </ul>
+        </li>
+        <li><span class="file">File 4</span></li>
+    </ul>
+    <script>
+        $(document).ready(function () {
+            $("#browser").treeview({
+                collapsed: true
+            });
+        });
+    </script>
+</body>
+</html>

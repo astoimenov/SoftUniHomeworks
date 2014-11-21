@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Background Color Switch</title>
+    <script src="../Scripts/jquery-2.1.1.min.js"></script>
+</head>
+    <body>
+        <form>
+            <label>Class:</label>
+            <input type="text" value="" id="class" /><br />
+            <label>Color:</label>
+            <input type="color" value="" id="color" /><br />
+            <input type="button" value="Paint" id="paint" />
+        </form>
+        <ul>
+            <li class="bird">Hummingbird</li>
+            <li class="bird">Nightingale</li>
+            <li>Lizard</li>
+            <li class="bird">Eagle</li>
+            <li class="bird">Sparrow</li>
+        </ul>
+        <script>
+            $(document).ready(function() {
+                $('#paint').click(function() {
+                    var classValue = $('#class').val();
+                    var colorValue = $('#color').val();
+
+                    $('.' + classValue).css('background-color', colorValue);
+                });
+            });
+        </script>
+    </body>
+</html>
