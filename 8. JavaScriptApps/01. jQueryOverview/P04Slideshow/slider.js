@@ -1,21 +1,22 @@
 ﻿(function () {
     var index = 1;
+	var container = $('#images-container');
 
     function previousSlide() {
         switch (index) {
 	        case 1:
 	            index = 3;
-	            $('#images-container').children().hide();
+				container.children().hide();
 	            $('#image1').fadeIn(1000);
 	            break;
 	        case 2:
 	            index -= 1;
-	            $('#images-container').children().hide();
+				container.children().hide();
 	            $('#image2').fadeIn(1000);
 	            break;
 	        case 3:
 	            index -= 1;
-	            $('#images-container').children().hide();
+				container.children().hide();
 	            $('#image3').fadeIn(1000);
 	            break;
 	        default:
@@ -27,17 +28,17 @@
         switch (index) {
 	        case 1:
 	            index += 1;
-	            $('#images-container').children().hide();
+				container.children().hide();
 	            $('#image1').fadeIn(1000);
 	            break;
 	        case 2:
 	            index += 1;
-	            $('#images-container').children().hide();
+				container.children().hide();
 	            $('#image2').fadeIn(1000);
 	            break;
 	        case 3:
 	            index = 1;
-	            $('#images-container').children().hide();
+				container.children().hide();
 	            $('#image3').fadeIn(1000);
 	            break;
 	        default:

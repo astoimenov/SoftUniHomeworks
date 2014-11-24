@@ -7,7 +7,8 @@
 <body>
     <div id="task">/* Using jQuery write a script for adding elements before/after other elements. */</div>
     <script>
-        $('#task').before('<header></header>');
+        var task = $('#task');
+        task.before('<header>');
         $('header').append('<h1>The header!</h1>');
         
 
@@ -15,10 +16,14 @@
 
         var i = 1;
         for (i; i <= 5; i += 1) {
-            $('#list').append('<li>item' + i + '</li>');
-        };
+            $('#list').append('<li>');
+        }
 
-        $('#task').after('<footer></footer>');
+        $('#list li').text(function( index ) {
+            return "Item " + ( index + 1 );
+        });
+
+        task.after('<footer>');
         $('footer').append('<h2>I am the footer!</h2>');
     </script>
 </body>

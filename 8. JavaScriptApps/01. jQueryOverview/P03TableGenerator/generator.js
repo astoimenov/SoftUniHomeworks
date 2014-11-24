@@ -8,29 +8,25 @@
 };
 
 $(document).ready(function () {
-    $('#generate').click(function () {
 
-        $('#container').append('<table><thead></thead><tbody></tbody></table>');
+        $('#container').append('<table>');
+        $('table').append('<thead>');
+        $('thead').after('<tbody>');
 
         $.getJSON('cars-data.json', function (response) {
-
+            var keys = [];
             $.each(response[0], function (key) {
                 $('thead').append('<th>' + key + '</th>');
             });
 
             $.each(response, function () {
                 $('tbody').append('<tr id="' + this.manufacturer + '"></tr>');
-                $('#' + this.manufacturer)
-                    .append('<td class="manufacturer">' + this.manufacturer + '</td>');
-                $('#' + this.manufacturer)
-                    .append('<td class="model">' + this.model + '</td>');
-                $('#' + this.manufacturer)
-                    .append('<td class="year">' + this.year + '</td>');
-                $('#' + this.manufacturer)
-                    .append('<td class="price">' + this.price + '</td>');
-                $('#' + this.manufacturer)
-                    .append('<td class="class">' + this.class + '</td>');
+                var manufacturerId = $('#' + this.manufacturer);
+                manufacturerId.append('<td class="manufacturer">' + this.manufacturer + '</td>');
+                manufacturerId.append('<td class="model">' + this.model + '</td>');
+                manufacturerId.append('<td class="year">' + this.year + '</td>');
+                manufacturerId.append('<td class="price">' + this.price + '</td>');
+                manufacturerId.append('<td class="class">' + this.class + '</td>');
             });
         });
-    });
 });
