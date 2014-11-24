@@ -21,12 +21,12 @@
                 textArea.appendChild(textLine);
                 consoleElement.scrollTop = consoleElement.scrollHeight;
             }
-        }
+        };
 
         self.writeLine = function jsConsoleWriteLine(text) {
             self.write(text);
             textArea.appendChild(document.createElement("br"));
-        }
+        };
 
         self.readLine = function readText(inputSelector) {
             var element = document.querySelector(inputSelector);
@@ -35,22 +35,21 @@
             } else {
                 return element.value;
             }
-        }
+        };
 
         self.readArea = function readTextArea(id) {
-            var arr = document.getElementById(id).value.split('\n');
-            return arr;
-        }
+            return document.getElementById(id).value.split('\n');
+        };
 
         self.readInteger = function readInteger(inputSelector) {
             var text = self.readLine(inputSelector);
             return parseInt(text);
-        }
+        };
 
         self.readFloat = function readFloat(inputSelector) {
             var text = self.readLine(inputSelector);
             return parseFloat(text);
-        }
+        };
 
         return self;
     }

@@ -12,4 +12,4 @@ function printNumbers(number) {
     }
     console.log(numbers.join(', '));
 }
-printNumbers(20)
+printNumbers(20);

@@ -1,12 +1,13 @@
 function compareChars(firstArray, secondArray) {
 	var firstSum = 0;
 	var secondSum = 0;
-
-	for (var i = 0; i < firstArray.length; i += 1) {
+	var i = 0;
+	for (i; i < firstArray.length; i += 1) {
 		firstSum += firstArray[i].charCodeAt(0);
 	}
-	for (var i = 0; i < secondArray.length; i += 1) {
-		secondSum += secondArray[i].charCodeAt(0);
+	var k = 0;
+	for (k; k < secondArray.length; k += 1) {
+		secondSum += secondArray[k].charCodeAt(0);
 	}
 	console.log('[' + firstArray + ']');
 	console.log('[' + secondArray+ ']');

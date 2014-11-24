@@ -1,6 +1,5 @@
 function findLargestBySumOfDigits(nums) {
     var max = 0;
-    var currentNumber = 0;
     var i, j, result;
 
     jsConsole.writeLine(nums.join(', '));
@@ -9,11 +8,13 @@ function findLargestBySumOfDigits(nums) {
         if (parseInt(nums[i]) !== nums[i] || arguments.length < 1) {
             result = 'undefined';
         }
+
         var currentNumber = Math.abs(nums[i]).toString();
         var sum = 0;
         for (j = 0; j < currentNumber.length; j += 1) {
             sum += Number(currentNumber[j]);
         }
+
         if (sum >= max) {
             result = nums[i];
             max = sum;

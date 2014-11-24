@@ -9,6 +9,7 @@ function biggerThanNeighbors(index, arr) {
     } else {
         result = 'not bigger';
     }
+
     jsConsole.writeLine('[' + index + ', [' + arr.join(', ') + ']');
     jsConsole.writeLine(result);
     jsConsole.writeLine();
