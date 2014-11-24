@@ -21,8 +21,7 @@
     }
 
     function retrieveElements(selector) {
-        var elements = de.querySelectorAll(selector);
-        return elements;
+        return de.querySelectorAll(selector);
     }
 
     return {

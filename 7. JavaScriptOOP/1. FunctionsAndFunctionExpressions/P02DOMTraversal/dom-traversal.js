@@ -24,7 +24,7 @@
                 traverseElement(child, spacing + "    ");
             }
         });
-    };
+    }
 }
 
 var selector = ".birds";

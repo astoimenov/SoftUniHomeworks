@@ -11,11 +11,11 @@
         } else {
             throw 'y should be a number!';
         }
-    };
+    }
 
     Point.prototype.toString = function() {
         return 'Point: (' + this._x + ', ' + this._y + ')';
-    }
+    };
 
     return Point;
 }());

@@ -185,11 +185,10 @@ function processRestaurantManagerCommands(commands) {
                 this._timeToPrepare = timeToPrepare;
             };
             Recipe.prototype.toString = function () {
-                var recipeString = '==  ' + this.getName() + ' == $' + this.getPrice() +
+                return '==  ' + this.getName() + ' == $' + this.getPrice() +
                     '\nPer serving: ' + this.getQuantity() + ' ' + this.getMeasurementUnit() +
                     ', ' + this.getCalories() + ' kcal' +
                     '\nReady in ' + this.getTimeToPrepare() + ' minutes';
-                return recipeString;
             };
             return Recipe;
         }());
@@ -220,9 +219,8 @@ function processRestaurantManagerCommands(commands) {
             };
             Drink.prototype.toString = function () {
                 var carbonated = this.getIsCarbonated() ? 'yes' : 'no';
-                var drinkString = Recipe.prototype.toString.call(this) +
+                return Recipe.prototype.toString.call(this) +
                     '\nCarbonated: ' + carbonated + "\n";
-                return drinkString;
             };
             return Drink;
         }());
@@ -243,11 +241,7 @@ function processRestaurantManagerCommands(commands) {
                 this._isVegan = isVegan;
             };
             Meal.prototype.toggleVegan = function () {
-                if (this._isVegan) {
-                    this._isVegan = false;
-                } else {
-                    this._isVegan = true;
-                }
+                this._isVegan = !this._isVegan;
             };
             Meal.prototype.toString = function () {
                 if (this.getIsVegan()) {
@@ -272,11 +266,7 @@ function processRestaurantManagerCommands(commands) {
                 this._withSugar = withSugar === undefined ? true : withSugar;
             };
             Dessert.prototype.toggleSugar = function () {
-                if (this._withSugar) {
-                    this._withSugar = false;
-                } else {
-                    this._withSugar = true;
-                }
+                this._withSugar = !this._withSugar;
             };
             Dessert.prototype.toString = function () {
                 if (!this.getWithSugar()) {
@@ -305,9 +295,8 @@ function processRestaurantManagerCommands(commands) {
             };
 
             MainCourse.prototype.toString = function () {
-                var mainCourseString = Meal.prototype.toString.call(this) +
+                return Meal.prototype.toString.call(this) +
                     '\nType: ' + this.getType() + "\n";
-                return mainCourseString;
             };
 
             return MainCourse;
@@ -331,9 +320,8 @@ function processRestaurantManagerCommands(commands) {
 
             Salad.prototype.toString = function () {
                 var pasta = this.getContainsPasta() ? 'yes' : 'no';
-                var saladString = Meal.prototype.toString.call(this) +
+                return Meal.prototype.toString.call(this) +
                     '\nContains pasta: ' + pasta + "\n";
-                return saladString;
             };
             return Salad;
 
@@ -346,21 +334,20 @@ function processRestaurantManagerCommands(commands) {
             }
 
             Command.prototype.translateCommand = function (commandLine) {
-                var self, paramsBeginning, name, parametersKeysAndValues;
+                var self, paramsBeginning, parametersKeysAndValues;
                 self = this;
                 paramsBeginning = commandLine.indexOf('(');
                 this._name = commandLine.substring(0, paramsBeginning);
-                name = commandLine.substring(0, paramsBeginning);
                 parametersKeysAndValues = commandLine
                     .substring(paramsBeginning + 1, commandLine.length - 1)
                     .split(';')
-                    .filter(function (e) {
+                    .filter(function () {
                         return true;
                     });
                 parametersKeysAndValues.forEach(function (p) {
                     var split = p
                         .split('=')
-                        .filter(function (e) {
+                        .filter(function () {
                             return true;
                         });
                     self._params[split[0]] = split[1];
@@ -529,8 +516,7 @@ function processRestaurantManagerCommands(commands) {
     commands.forEach(function (cmd) {
         if (cmd !== '') {
             try {
-                var cmdResult = RestaurantEngine.executeCommand(cmd);
-                results += cmdResult;
+                results += RestaurantEngine.executeCommand(cmd);
             } catch (err) {
                 results += err.message + "\n";
             }
