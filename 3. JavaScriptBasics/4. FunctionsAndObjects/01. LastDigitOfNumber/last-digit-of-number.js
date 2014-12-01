@@ -1,4 +1,5 @@
 function lastDigitAsText(number) {
+    'use strict';
     var digit = number % 10;
     switch (digit) {
         case 0:
