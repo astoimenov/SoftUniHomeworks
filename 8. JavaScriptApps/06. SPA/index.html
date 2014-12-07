@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Books</title>
+</head>
+<body>
+
+<div id="add-book-wrapper">
+    <h3>Add Book:</h3>
+    <label for="title">Title: </label>
+    <input id="title" type="text" />
+    <label for="author">Author:</label>
+    <input id="author" type="text" />
+    <label for="isbn">ISBN:</label>
+    <input id="isbn" type="text" />
+    <button id="create-book">Add Book</button>
+</div>
+
+<div id="wrapper"></div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/q/q.js"></script>
+<script src="node_modules/shimney-sammy/main.js"></script>
+<script src="node_modules/mustache/mustache.js"></script>
+<script src="scripts/ajax-requester.js"></script>
+<script src="scripts/data-persister.js"></script>
+<script src="scripts/controller.js"></script>
+<script src="scripts/books.js"></script>
+</body>
+</html>
