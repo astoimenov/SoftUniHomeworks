@@ -1,0 +1,18 @@
+<table id="phones">
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Action</th>
+    </tr>
+	{{#results}}
+        <tr data-id="{{objectId}}">
+            <td>{{name}}</td>
+            <td>{{number}}</td>
+            <td>
+                <a href="#/phone/edit/{{objectId}}" class="link edit">Edit</a>
+                <a href="#/phone/delete/{{objectId}}" class="link delete">Delete</a>
+            </td>
+        </tr>
+	{{/results}}
+</table>
+<p><a href="#/phone/add" class="button">Add Phone</a></p>
