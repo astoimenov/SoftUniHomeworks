@@ -1,7 +1,7 @@
 SoftUniHomeworks
 ================
 
-This is a public repo of all my homeworks and projects done for Software University.
+This is a public repo of all my homeworks and projects done for the Software University.
 
 ----------------
 Level #0:
