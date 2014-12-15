@@ -7,7 +7,7 @@ This is a public repo of all my homeworks and projects done for Software Univers
 Level #0:
 ----------------
 
-####CSharp Basics:
+#### CSharp Basics: ####
 
 1. Introduction to Programming 
 2. Primitive Data Types and Variables
@@ -21,7 +21,7 @@ Level #0:
 Level #1:
 ----------------
 
-####Java Basics:
+#### Java Basics: ####
 
 1. Introduction to Java
 2. Java Syntax
@@ -29,7 +29,7 @@ Level #1:
 4. Collections Basics
 Exam
 
-####Web Fundamentals:
+#### Web Fundamentals: ####
 
 2. HTML5 Overview
 3. Tables
@@ -42,7 +42,7 @@ Exam
 10. Preprocessors, Transitions and Jekyll
 Exam
 
-####JavaScript Basics:
+#### JavaScript Basics: ####
 
 1. Introduction to JavaScript
 2. JavaScript Syntax
@@ -50,7 +50,7 @@ Exam
 4. Functions and Objects
 5. DOM and Events
 
-####PHP Basics:
+#### PHP Basics: ####
 
 1. PHP Syntax
 2. Working with Forms
@@ -62,7 +62,7 @@ Exam
 Level #2:
 ----------------
 
-####Object Oriented Programming:
+#### Object Oriented Programming: ####
 
 1. Defining Classes
 2.1. Static Members and Namespaces
@@ -79,7 +79,7 @@ Exam
 Teamwork Project
 
 
-####High Quality Code:
+#### High Quality Code: ####
 
 2. Code Formatting
 3. Naming Indentifiers
@@ -90,14 +90,14 @@ Teamwork Project
 13. Refactoring
 15. Code Optimization
 
-####JavaScript OOP:
+#### JavaScript OOP: ####
 
 1. Functions and Function Expressions
 2. JavaScript OOP
 Exam
 Exam Preparation
 
-####JavaScript Applications:
+#### JavaScript Applications: ####
 
 1. jQuery Overview
 2. jQuery Plugins
