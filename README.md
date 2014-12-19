@@ -107,3 +107,8 @@ Exam Preparation
 6. Single Page Applications
 7. Underscore
 Exam
+
+#### JavaScript Applications: ####
+
+1. Introduction
+2. Controlers and Markup
