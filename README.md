@@ -111,4 +111,4 @@ Exam
 #### JavaScript Applications: ####
 
 1. Introduction
-2. Controlers and Markup
+2. Controllers and Markup
