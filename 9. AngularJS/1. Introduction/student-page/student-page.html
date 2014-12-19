@@ -1,0 +1,9 @@
+<div ng-controller="StudentPageCtrl">
+    <h1>Student: {{ student.name }}</h1>
+    <img  alt="student-photo" ng-src="{{ student.photo }}" ng-style="photoStyle" />
+    <ul class="student-info">
+        <li>Grade: {{ student.grade }}</li>
+        <li>School: {{ student.school }}</li>
+        <li>Teacher: {{ student.teacher }}</li>
+    </ul>
+</div>

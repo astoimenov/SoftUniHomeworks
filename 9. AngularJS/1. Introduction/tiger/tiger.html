@@ -1,0 +1,26 @@
+<div ng-controller="TigerCtrl" ng-style="containerStyle">
+    <div class="tiger-info" ng-style="subContainerStyle">
+        <div ng-style="headingStyle">
+            {{ 'Tiger' | uppercase }}
+        </div>
+        <div>
+            <span ng-style="labelStyle">Name: </span>
+            <span>{{ tiger.Name }}</span>
+        </div>
+        <div>
+            <span ng-style="labelStyle">Born: </span>
+            <span>{{ tiger.Born }}</span>
+        </div>
+        <div>
+            <span ng-style="labelStyle">Birth date: </span>
+            <span>{{ tiger.BirthDate }}</span>
+        </div>
+        <div>
+            <span ng-style="labelStyle">Live: </span>
+            <span>{{ tiger.Live }}</span>
+        </div>
+    </div>
+    <div class="tiger-image" ng-style="subContainerStyle">
+        <img ng-src="{{ tiger.ImageUrl }}" ng-style="imageStyle" alt=""/>
+    </div>
+</div>

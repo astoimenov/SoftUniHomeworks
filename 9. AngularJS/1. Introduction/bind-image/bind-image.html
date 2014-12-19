@@ -1,0 +1,7 @@
+<div ng-controller="BindImageCtrl">
+    <form action="">
+        <label for="image-url">Image url:</label>
+        <input type="url" name="image-url" id="image-url" ng-model="imageUrl"/>
+    </form>
+    <img ng-src="{{ imageUrl }}" ng-style="imageStyle" alt=""/>
+</div>
