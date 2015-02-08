@@ -65,10 +65,12 @@ Level #2:
 #### Object Oriented Programming: ####
 
 1. Defining Classes
-2.1. Static Members and Namespaces
-2.2. Exception Handling
-3.1. Other Types
-3.2. Delegates and Events
+2.   
+  1. Static Members and Namespaces
+  2. Exception Handling
+3.    
+  1. Other Types
+  2. Delegates and Events
 4. Functional Programming
 5. Inheritance and Abstraction
 6. Encapsulation and Polymorphism
@@ -107,3 +109,15 @@ Exam Preparation
 6. Single Page Applications
 7. Underscore
 Exam
+
+#### SPA with AngularJS: ####
+
+1. Introduction
+2. Controllers and Markup
+
+----------------
+Level #3:
+----------------
+
+#### Databases: ####
+1. Database Systems Overview
