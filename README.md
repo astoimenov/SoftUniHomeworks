@@ -110,7 +110,10 @@ Exam Preparation
 7. Underscore
 Exam
 
-#### JavaScript Applications: ####
+#### SPA with AngularJS: ####
 
 1. Introduction
 2. Controllers and Markup
+
+#### Databases: ####
+1. Database Systems Overview
