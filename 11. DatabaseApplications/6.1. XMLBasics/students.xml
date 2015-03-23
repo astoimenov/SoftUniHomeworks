@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<students xmlns="urn:students"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:students
+    http://example.com/2015/students.xsd">
+	<student>
+		<name>Otto Mitchell</name>
+		<email>aliquet.sem@lorem.com</email>
+		<birth-date>2014-03-18T01:29:06-07:00</birth-date>
+		<phone-number>0845 46 42</phone-number>
+		<university>Apple Systems</university>
+		<speciality>Research and Development</speciality>
+		<faculty-number>5334090463821776</faculty-number>
+		<exams>
+			<exam>
+				<exam-name>JavaScript</exam-name>
+				<exam-grade>4</exam-grade>
+				<exam-date>2014-04-29T00:23:15-07:00</exam-date>
+			</exam>
+
+			<exam>
+				<exam-name>Sales</exam-name>
+				<exam-grade>5</exam-grade>
+				<exam-date>2016-02-21T09:01:24-08:00</exam-date>
+			</exam>
+			<exam>
+				<exam-name>OOP</exam-name>
+				<exam-grade>4</exam-grade>
+				<exam-date>2015-05-10T04:23:23-07:00</exam-date>
+			</exam>
+			<exam>
+				<exam-name>JavaScript</exam-name>
+				<exam-grade>3</exam-grade>
+				<exam-date>2015-07-31T23:12:20-07:00</exam-date>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Donovan Jenkins</name>
+		<email>montes@Sedet.net</email>
+		<birth-date>2015-02-07T00:30:57-08:00</birth-date>
+		<phone-number>055 1159 3601</phone-number>
+		<university>Chami</university>
+		<speciality>Human Resources</speciality>
+		<faculty-number>5152673512040636</faculty-number>
+	</student>
+	<student>
+		<name>Jack Benton</name>
+		<email>malesuada.vel.convallis@Nullamnisl.edu</email>
+		<birth-date>2016-02-14T00:41:10-08:00</birth-date>
+		<phone-number>0919 433 3162</phone-number>
+		<university>Yahoo</university>
+		<speciality>Finances</speciality>
+		<faculty-number>377383716283832</faculty-number>
+	</student>
+	<student>
+		<name>Scott Wallace</name>
+		<email>per@dolor.ca</email>
+		<birth-date>2014-04-13T04:13:58-07:00</birth-date>
+		<phone-number>0862 821 5255</phone-number>
+		<university>Macromedia</university>
+		<speciality>Finances</speciality>
+		<faculty-number>5119350172579288</faculty-number>
+		<exams>
+			<exam>
+				<exam-name>JavaScript</exam-name>
+				<exam-grade>4</exam-grade>
+				<exam-date>2014-04-29T00:23:15-07:00</exam-date>
+			</exam>
+
+			<exam>
+				<exam-name>Sales</exam-name>
+				<exam-grade>5</exam-grade>
+				<exam-date>2016-02-21T09:01:24-08:00</exam-date>
+			</exam>
+			<exam>
+				<exam-name>OOP</exam-name>
+				<exam-grade>4</exam-grade>
+				<exam-date>2015-05-10T04:23:23-07:00</exam-date>
+			</exam>
+			<exam>
+				<exam-name>JavaScript</exam-name>
+				<exam-grade>3</exam-grade>
+				<exam-date>2015-07-31T23:12:20-07:00</exam-date>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Nissim White</name>
+		<email>penatibus.et.magnis@pedeacurna.ca</email>
+		<birth-date>2014-06-08T09:06:13-07:00</birth-date>
+		<phone-number>(016977) 9714</phone-number>
+		<university>Macromedia</university>
+		<speciality>Quality Assurance</speciality>
+		<faculty-number>4295799746830010</faculty-number>
+	</student>
+	<student>
+		<name>Ronan Blanchard</name>
+		<email>quam.vel.sapien@lacus.ca</email>
+		<birth-date>2015-09-12T05:02:56-07:00</birth-date>
+		<phone-number>076 9728 0255</phone-number>
+		<university>Adobe</university>
+		<speciality>Advertising</speciality>
+		<faculty-number>5148106494760140</faculty-number>
+	</student>
+	<student>
+		<name>Nigel Barlow</name>
+		<email>eu@nascetur.ca</email>
+		<birth-date>2014-08-14T01:28:23-07:00</birth-date>
+		<phone-number>(020) 0155 8404</phone-number>
+		<university>Yahoo</university>
+		<speciality>Payroll</speciality>
+		<faculty-number>5295693544195966</faculty-number>
+	</student>
+</students>
